@@ -112,6 +112,7 @@ GEM
     guard-minitest (2.4.6)
       guard-compat (~> 1.2)
       minitest (>= 3.0)
+    htmlbeautifier (1.4.3)
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.5)
@@ -259,6 +260,10 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.31.2)
       parser (>= 3.3.0.4)
+    ruby-lsp (0.14.0)
+      language_server-protocol (~> 3.17.0)
+      prism (>= 0.19.0, < 0.22)
+      sorbet-runtime (>= 0.5.10782)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
     sassc (2.4.0)
@@ -290,6 +295,7 @@ GEM
       thor (~> 1.0)
       tilt (~> 2.0)
       yard (~> 0.9, >= 0.9.24)
+    sorbet-runtime (0.5.11342)
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -348,6 +354,7 @@ DEPENDENCIES
   debug (= 1.7.1)
   guard (= 2.18.0)
   guard-minitest (= 2.4.6)
+  htmlbeautifier
   importmap-rails (= 1.1.5)
   irb (= 1.10.0)
   jbuilder (= 2.11.5)
@@ -357,6 +364,8 @@ DEPENDENCIES
   rails (= 7.0.4.3)
   rails-controller-testing (= 1.0.5)
   repl_type_completor (= 0.1.2)
+  rubocop
+  ruby-lsp
   sassc-rails (= 2.1.2)
   selenium-webdriver (= 4.8.3)
   solargraph (= 0.50.0)
